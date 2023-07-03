@@ -32,7 +32,7 @@ ArToolkitContext.init(() => {
 
 let ArMarkerControls = new THREEx.ArMarkerControls(ArToolkitContext, camera, {
   type: "pattern",
-  patternUrl: "pattern-JGEC.patt",
+  patternUrl: "marker.patt",
   changeMatrixMode: "cameraTransformMatrix",
 });
 
